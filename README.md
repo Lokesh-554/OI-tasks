@@ -1,2 +1,2 @@
 # OI-tasks
-completing web development tasks in Oasis Infobyte for my Internship!
+Creating new Web development websites using Frontend web and UI. 
