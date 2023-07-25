@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+.container h1{
+  color: aqua;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links a:hover {
+  background-color: #555;
+}
+
+#hero {
+  background-image: url('img/loki.jpg');
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-content {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+#about {
+  background-color: #fdfdf6;
+  background-image: linear-gradient(45deg, #ebd990, #edd710cd, #878206c5);
+  padding: 2rem 0;
+}
+
+#about h2 {
+  text-align: center;
+}
+
+#projects {
+  padding: 2rem 0;
+}
+
+.project {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin: 1rem 0;
+}
+
+#contact {
+  background-color: #f9f9f9;
+  padding: 2rem 0;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+.p0{
+  background-color:rgb(135, 110, 10);
+  background-image: linear-gradient(left top #464,#3264,#9453);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 10px;
+}
+.p2{
+  margin-left: 20%;
+}
+#projects{
+  background-color: rgb(198, 249, 249);
+  background-image: linear-gradient(45deg, #0a547e, #3991ab, #a8deeb);
+
+}
+.container h2{
+  text-align: center;
+  color: rgb(160, 156, 95);
+}
