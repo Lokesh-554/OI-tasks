@@ -1,0 +1,150 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 100px;
+    cursor: pointer;
+} 
+
+/* Main content styles */
+.vpn {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url(img/locations.png);
+}
+
+.vpn img {
+    max-width: 200px;
+}
+
+.vpn h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.vpn h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.vpn button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: #d1c8c8;
+}
+
+.container1 .image img {
+    max-width: 300px;
+    border-radius: 5px;
+    padding-left: 20%;
+}
+
+.container1 .content {
+    flex: 1;
+    padding-left: 250px;
+}
+
+.container1 h4 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.container1 p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.container2 h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.container2 p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.container1 button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h5 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#afd7e1;
+}
+.container2 .class1{
+    flex: 1;
+    padding-left: 10%;
+}
+.container2 .class2 img{
+    max-width: 300px;
+    border-radius: 5px;
+
+}
+.container2 .class2{
+    padding-right: 10%;
+    margin-right: 5%;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+    background-color:#8887d6a1;
+}
+.container3 img{
+    max-width: 200px;
+    border-radius: 5px;
+}
+.container4{
+    background-color: #f4c4d4e7;
+    margin-bottom: 2%;
+}
+.container4 img{
+    margin-left: 15%;
+}
